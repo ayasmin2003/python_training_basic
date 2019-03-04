@@ -5,6 +5,9 @@ Python training by Pavel
 
 Text
 
-```Import file system´´´
+```
+Import io from system
+
+```
 
 This is the output text: 'print("hello world")
