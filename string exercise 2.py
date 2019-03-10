@@ -64,9 +64,9 @@ print(my_string.lstrip('–== '))
 my_string = 'Changing your dog for a bird? Some dog-lover you are.'
 print(my_string.replace('dog','cat'))
 
-#12
+#12  Replace the ﬁrst ’o’ with ’a’ in ’Being bold has some uses.’
 my_string = 'Being bold has some uses.'
-print(my_string.replace('o','a'))
+print(my_string.replace('o','a',1))
 
 #13
 my_string ='–== Error! ==–'
@@ -88,16 +88,18 @@ print(my_string.capitalize())
 my_string= 'a loooooooooooooooooooong word?'
 print(my_string.count('o'))
 
-#18.
-godzillion = 100000000000000000000000000000000000000000
-#print(my_number.count(0))
+#18. How many zeros in godzillion? (Let godzillion be 100000000000000000000000000000000000000000)
+godzillion = '100000000000000000000000000000000000000000'
+print(godzillion.count('0'))
 
-#19
+#19  How many ’n’ are there in the ﬁrst half of the string ’Something out of nothing? I really doubt we can do it anytime soon..’
 my_string = 'Something out of nothing? I really doubt we can do it anytime soon..'
 print((my_string[:(len(my_string))//2]).count('n'))
 
 #20. Replace all ’0’ except the ﬁrst with ’9’in godzillion(see deﬁnition above).
 
+print(godzillion[0:2]+godzillion[2:].replace('0','9'))
 
-
-#21. From ’what,if,we,have,no,choice?....’ create ’What if we have no choice?’
+#21. From my_string = "what,if,we,have,no,choice?....’ create ’What if we have no choice?"
+my_string = "what,if,we,have,no,choice?...."
+print (my_string.replace(',',' ').rstrip('.'))
