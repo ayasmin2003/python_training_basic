@@ -52,18 +52,35 @@ start= my_string.find('media')
 end = start+len('media')
 print (my_string[start:end])
 
-#12
-print(str(3))
+#12 from ’grand’ and ’ma’ create: ’grandma’
+first_s= 'grand'
+second = 'ma'
+print(f'{first_s}{second}')
+#or
+print('grand'+'ma')
 
-#13
+#13 from ’grand’ and ’dad’ create: ’grandad’
 
-#14
+grand = 'grand'
+dad = 'ad'
+print(f'{grand}{dad}')
 
-#15
+# 14. from ’grand’ and ’ma’ create: ’grandgrandgrandma’
+print(f'{first_s*3}{second}')
 
-#16
+# 15. from ’grand’ and ’dad’ create: ’grandgrandgrandgrandad’
+print(f'{grand*4}{dad}')
 
-#17
+
+# 16. from 3 create: ’3’
+value=3
+print(str(value))
+
+
+# 17. from 4 create: ’444’
+value=4
+print(str(value)*3)
+
 
 
 #18
