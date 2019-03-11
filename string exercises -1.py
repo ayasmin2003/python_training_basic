@@ -65,11 +65,18 @@ grand = 'grand'
 dad = 'ad'
 print(f'{grand}{dad}')
 
+
 # 14. from ’grand’ and ’ma’ create: ’grandgrandgrandma’
 print(f'{first_s*3}{second}')
 
 # 15. from ’grand’ and ’dad’ create: ’grandgrandgrandgrandad’
 print(f'{grand*4}{dad}')
+
+#OR
+string1='grand'
+string2='dad'
+total = string1*4+string2[1:]
+print(total)
 
 
 # 16. from 3 create: ’3’
